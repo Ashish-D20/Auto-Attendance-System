@@ -8,7 +8,7 @@ from ultralytics import YOLO
 DATABASE_FOLDER = "database"
 YOLO_MODEL = "yolov12l-face.pt"
 ADAFACE_MODEL = "adaface-onnx/weights/adaface_ir_101.onnx"
-OUTPUT_DATABASE = "no_expansions/face_database.npz"
+OUTPUT_DATABASE = "ingestion methods/face_database.npz"
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".bmp", ".webp")
 
 # Load models
