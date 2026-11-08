@@ -16,5 +16,7 @@ The flow goes like this:
 2. Save all your database images; images that you need to check against in the "database" folder
 3. Make a folder named "adaface-onnx" and inside it make a folder named "weights"
 4. Download the adaface model by clicking [here](https://github.com/yakhyo/adaface-onnx/releases/download/weights/adaface_ir_101.onnx) and store in "adaface-onnx/weights/" folder
-5. Run any number of ingestion methods to make the convert images into database file.
-WARNING: Code is designed in such a way that all four ingested databases are expected.
+5. Run any number of ingestion methods to make the convert images into database file
+WARNING: Code is designed in such a way that all four ingested databases are expected
+6. Once the web interface opens, choose the database, choose model, input an image and click on run
+7. Once done, the attendance results will be shown in an image as well as in a tabular format with each name in database being absent or present
