@@ -11,5 +11,10 @@ The flow goes like this:
 4. input embeddings are checked against database embeddings for similarity.
 5. input face embedding is labelled with embedding that matches the most in the database.
 
-#How to run the system
-1. Make a 
+# How to run the system
+1. Make a folder named "database"
+2. Save all your database images; images that you need to check against in the "database" folder
+3. Make a folder named "adaface-onnx" and inside it make a folder named "weights"
+4. Download the adaface model by clicking [here](https://github.com/yakhyo/adaface-onnx/releases/download/weights/adaface_ir_101.onnx) and store in "adaface-onnx/weights/" folder
+5. Run any number of ingestion methods to make the convert images into database file.
+WARNING: Code is designed in such a way that all four ingested databases are expected.
