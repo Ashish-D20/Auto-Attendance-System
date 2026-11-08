@@ -44,10 +44,10 @@ with st.sidebar:
     )
 
     DATABASE_OPTIONS = {
-    "No Expansion": "no_expansions/face_database.npz",
-    "6.25% Expansion": "6.25%_expanded/face_database_6.25%_expanded.npz",
-    "8% Expansion": "8%_expanded/face_database_8%_expanded.npz",
-    "12.5% Expansion": "12.5%_expanded/face_database_12.5%_expanded.npz"
+    "No Expansion": "ingestion methods/face_database.npz",
+    "6.25% Expansion": "ingestion methods/face_database_6.25%_expanded.npz",
+    "8% Expansion": "ingestion methods/face_database_8%_expanded.npz",
+    "12.5% Expansion": "ingestion methods/face_database_12.5%_expanded.npz"
     }
 
     selected_database = st.selectbox(
